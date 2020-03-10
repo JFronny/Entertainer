@@ -1,0 +1,4 @@
+SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce
+SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run
+SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Windows\load
