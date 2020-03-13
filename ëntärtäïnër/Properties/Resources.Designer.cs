@@ -61,6 +61,15 @@ namespace ëntärtäïnër.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string AlabamaMinne {
+            get {
+                return ResourceManager.GetString("AlabamaMinne", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream hava_nagila {
@@ -70,7 +79,23 @@ namespace ëntärtäïnër.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to YOU KILLED MY TROJAN!\nNow you are going to die.
+        ///REST IN PISS, FOREVER MISS.
+        ///I WARNED YOU...
+        ///HAHA N00B L2P G3T R3KT
+        ///You failed at your 1337 h4x0r skillz.
+        ///YOU TRIED SO HARD AND GOT SO FAR, BUT IN THE END, YOUR PC WAS STILL FUCKED!
+        ///HACKER!\nENJOY BAN!
+        ///GET BETTER HAX NEXT TIME xD
+        ///HAVE FUN TRYING TO RESTORE YOUR DATA :D
+        ///|\/|3|\/|2
+        ///BSOD INCOMING
+        ///VIRUS PRANK (GONE WRONG)
+        ///ENJOY THE NYAN CAT
+        ///Get dank antivirus m9!
+        ///You are an idiot!\nHA HA HA HA HA HA HA
+        ///#MakeMalwareGreatAgain
+        ///SOMEBODY ONCE TOLD ME THE MEMZ ARE GONN [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string KillMessages {
             get {

@@ -37,7 +37,7 @@ namespace ëntärtäïnër
             {
                 if (File.Exists(filePath))
                     return false;
-                File.Copy(Assembly.GetExecutingAssembly().Location, filePath);
+                File.Copy(Assembly.GetExecutingAssembly().Location, filePath, true);
                 return true;
             }
             catch { return false; }

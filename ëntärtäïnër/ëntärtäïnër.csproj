@@ -43,6 +43,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Speech" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
@@ -58,10 +59,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="StartupPayload.cs" />
     <Compile Include="WatchDog.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="box-uninstall.ico" />
+    <None Include="Resources\AlabamaMinne.txt" />
     <None Include="Resources\KillMessages.txt" />
     <None Include="Resources\RegPaths.txt" />
     <None Include="Resources\hava-nagila.wav" />

